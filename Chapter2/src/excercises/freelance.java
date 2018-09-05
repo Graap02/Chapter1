@@ -9,24 +9,24 @@ public class freelance {
 		Scanner input = new Scanner(System.in);
 		
 		String name;
-		String int1;
-		String int2;
-		String int3;
-		
+		int firstNumber;
+		int secondNumber;
+		int sum;
 		
 		System.out.println("What is your name >> ");
 		name = input.next();
 		System.out.println("What is integer 1? >> ");
-		int1 = input.next();
+		firstNumber = input.nextInt();
 		System.out.println("What is integer 2? >> ");
-		int2 = input.next();
+		secondNumber = input.nextInt();
 		
 		
+		sum = firstNumber + secondNumber;
 		
 		
 		
 		System.out.println("Your name is " + name);
-		System.out.println(int1 + int2);
+		System.out.println("Your number is " + sum);
 		
 	}
 
