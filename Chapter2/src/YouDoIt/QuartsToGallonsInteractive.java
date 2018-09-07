@@ -2,7 +2,7 @@ package YouDoIt;
 
 import java.util.Scanner;
 
-public class QuartsToGallons {
+public class QuartsToGallonsInteractive {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,12 +17,11 @@ public class QuartsToGallons {
 		
 		numberofGallons = numberofQuartsNeeded / QTS_IN_GALLONS;
 		numberofQuartsRemaining = numberofQuartsNeeded % QTS_IN_GALLONS;
-		
+		int totalQuarts = numberofGallons/QTS_IN_GALLONS;
 		
 		System.out.println("How many quartz are needed?");
 		numberofQuartsNeeded = input.nextByte();
-		System.out.println("The job calls for " + numberofQuartsNeeded + " total quarts." );
-		
+		System.out.println("The job calls for " + totalQuarts + " total gallons." );
 	}
 
 }
