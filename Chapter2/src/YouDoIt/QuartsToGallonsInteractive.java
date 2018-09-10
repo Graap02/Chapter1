@@ -23,5 +23,4 @@ public class QuartsToGallonsInteractive {
 		numberofQuartsNeeded = input.nextByte();
 		System.out.println("The job calls for " + totalQuarts + " total gallons." );
 	}
-
 }
